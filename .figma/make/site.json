@@ -1,0 +1,10 @@
+{
+  "description": "Explore Korean household registration data by region with yearly trend and ranking charts, regional search, and normalized comparisons to reveal local patterns.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
