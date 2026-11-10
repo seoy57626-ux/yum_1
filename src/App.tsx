@@ -479,7 +479,7 @@ export default function App() {
   const [query, setQuery] = useState("")
 
   useEffect(() => {
-    fetch("/households.csv")
+    fetch(`${import.meta.env.BASE_URL}households.csv`)
       .then((response) => {
         if (!response.ok) throw new Error("지역 데이터를 불러오지 못했습니다.")
         return response.text()
